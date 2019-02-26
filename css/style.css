@@ -85,6 +85,7 @@ nav li a {
 .currenrtpage{
   background-color: #4CAF50;
   color:white;
+  text-decoration: underline;
 }
 
 /* Change the link color to #111 (black) on hover */

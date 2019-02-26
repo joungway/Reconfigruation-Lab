@@ -1,16 +1,24 @@
 @media only screen and (max-width:780px)
 {
 
-  .box {
+  main.box {
     width: 90%;
     margin-left: 4%;
     padding: 0;
     margin: auto;
+
   }
 
-  .menu-div{
-    width: 90%;
-    margin-left: 4%;
+  header {
+    width: 100%;
+  }
+
+  .menu-div {
+    width: 100%;
+  }
+
+  .menu-div nav {
+    width: 100%;
     padding: 0;
 
   }

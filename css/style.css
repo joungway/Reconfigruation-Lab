@@ -1,6 +1,6 @@
-/* body{
+body{
     background-color:#FECC66;
-} */
+}
 
 #index_body{
   background-image: url("../images/index.jpg");
@@ -66,11 +66,13 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  display: :flex;
 }
 
 nav li {
   float: left;
   list-style-type: none;
+  flex-direction:row;
 }
 
 nav li a {
@@ -83,9 +85,10 @@ nav li a {
 
 /* nav li a:active { */
 .currenrtpage{
-  background-color: #4CAF50;
+  background-color: ##577158;
   color:white;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom:3px solid white;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -98,8 +101,8 @@ nav li a:hover:not(.active) {
 
 a.skip-main {
     display:none;
-    left:-999px;
-    position:absolute;
+    /* left:-999px;
+    position:absolute; */
     top:auto;
     width:1px;
     height:1px;

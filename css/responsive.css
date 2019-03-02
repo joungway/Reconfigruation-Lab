@@ -3,10 +3,7 @@
 
   main.box {
     width: 90%;
-    margin-left: 4%;
-    padding: 0;
-    margin: auto;
-
+    margin-left: 3.2%;
   }
 
   header {
@@ -62,22 +59,40 @@
       display: block;
     }
 
-    div.splatware_images img{
-      display:block;
-    }
-
-    div.research_images{
+    div.splatware_images{
       display:grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
-      width:90%;
+      grid-gap: 1px;
+      width: 90%;
+      margin:auto;
+    }
+
+    /* div.splatware_images img{
+      display:block;
+      width:100%;
+    } */
+
+    img.splatware_gif{
+      display:block;
+      margin:auto;
+      width:93%;
+    }
+
+    div.research_images {
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      max-width:90%;
       grid-gap: 1px;
       margin:auto;
+      padding-top: 15px;
     }
 
     img.research_poster{
       display:block;
       margin:auto;
+      width:100%;
     }
 
 
